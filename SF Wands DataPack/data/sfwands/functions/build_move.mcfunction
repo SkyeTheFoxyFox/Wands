@@ -9,6 +9,6 @@ execute as @e[type=minecraft:marker,name=SF_wand_3_2] at @s if block ~ ~-1 ~ bar
 execute as @e[type=minecraft:marker,name=SF_wand_3_2] at @s run kill @s
 execute as @e[type=minecraft:marker,name=SF_wand_3] at @s unless block ^ ^ ^.5 #airs align xyz positioned ~.5 ~.5 ~.5 run summon marker ~ ~ ~ {CustomName:'{"text":"SF_wand_3_2"}'}
 execute as @e[type=minecraft:marker,name=SF_wand_3] at @s unless block ^ ^ ^.5 #airs run kill @s
-execute as @e[type=marker,scores={SF_wand_life=500..},name=SF_wand_3] at @s run kill @s
+execute as @e[type=marker,scores={SF_wand_life=100..},name=SF_wand_3] at @s run kill @s
 
 execute if entity @e[type=minecraft:marker,name=SF_wand_3] run function sfwands:build_move
