@@ -1,7 +1,6 @@
 # Wands
 
-This datapack adds several wands, and other things, for verious purposes.
-<br/>
+This datapack adds several wands, and other things, for verious purposes.\
 **This datapack requires the Crafting Alter datapack**
 
 Wands:
