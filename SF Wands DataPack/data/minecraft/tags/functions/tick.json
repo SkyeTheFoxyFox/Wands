@@ -1,0 +1,9 @@
+{
+  "values":[
+	"sfwands:main",
+	"sfwands:damage",
+	"sfwands:mana_bar",
+	"sfwands:particles",
+	"sfwands:recipes"
+  ]
+}

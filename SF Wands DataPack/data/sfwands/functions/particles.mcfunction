@@ -1,0 +1,10 @@
+execute as @a[nbt={Inventory:[{id:"minecraft:book",tag:{CustomModelData:7331}}]}] at @s if score @s SF_wand_armor matches ..0 run particle minecraft:reverse_portal ~ ~.1 ~1 -.48 0 -.35 .06 0 force
+execute as @a[nbt={Inventory:[{id:"minecraft:book",tag:{CustomModelData:7331}}]}] at @s if score @s SF_wand_armor matches ..0 run particle minecraft:reverse_portal ~-.95 ~.1 ~.31 .18 0 -.56 .06 0 force
+execute as @a[nbt={Inventory:[{id:"minecraft:book",tag:{CustomModelData:7331}}]}] at @s if score @s SF_wand_armor matches ..0 run particle minecraft:reverse_portal ~-.59 ~.1 ~-.81 0.59 0 0 .06 0 force
+execute as @a[nbt={Inventory:[{id:"minecraft:book",tag:{CustomModelData:7331}}]}] at @s if score @s SF_wand_armor matches ..0 run particle minecraft:reverse_portal ~.59 ~.1 ~-.81 0.18 0 0.56 .06 0 force
+execute as @a[nbt={Inventory:[{id:"minecraft:book",tag:{CustomModelData:7331}}]}] at @s if score @s SF_wand_armor matches ..0 run particle minecraft:reverse_portal ~.95 ~.1 ~.31 -.48 0 0.35 .06 0 force
+execute as @a[nbt={Inventory:[{id:"minecraft:book",tag:{CustomModelData:7331}}]}] at @s if score @s SF_wand_armor matches ..0 run particle minecraft:reverse_portal ~ ~.1 ~1 -.29 0 -.9 .06 0 force
+execute as @a[nbt={Inventory:[{id:"minecraft:book",tag:{CustomModelData:7331}}]}] at @s if score @s SF_wand_armor matches ..0 run particle minecraft:reverse_portal ~-.95 ~.1 ~.31 0.77 0 -0.56 .06 0 force
+execute as @a[nbt={Inventory:[{id:"minecraft:book",tag:{CustomModelData:7331}}]}] at @s if score @s SF_wand_armor matches ..0 run particle minecraft:reverse_portal ~-.59 ~.1 ~-.81 0.77 0 0.56 .06 0 force
+execute as @a[nbt={Inventory:[{id:"minecraft:book",tag:{CustomModelData:7331}}]}] at @s if score @s SF_wand_armor matches ..0 run particle minecraft:reverse_portal ~.59 ~.1 ~-.81 -.29 0 .9 .06 0 force
+execute as @a[nbt={Inventory:[{id:"minecraft:book",tag:{CustomModelData:7331}}]}] at @s if score @s SF_wand_armor matches ..0 run particle minecraft:reverse_portal ~.95 ~.1 ~.31 -.95 0 0 .06 0 force
