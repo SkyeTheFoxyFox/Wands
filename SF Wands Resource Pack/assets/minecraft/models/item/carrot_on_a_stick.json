@@ -1,0 +1,17 @@
+{
+  "parent": "minecraft:item/handheld_rod",
+  "textures": {
+    "layer0": "minecraft:item/carrot_on_a_stick"
+  },
+
+    "overrides":[
+
+	 {"predicate": {"custom_model_data":7391}, "model":"item/custom/copper_wand"},
+     {"predicate": {"custom_model_data":7392}, "model":"item/custom/crystal_wand"},
+	 {"predicate": {"custom_model_data":7393}, "model":"item/custom/emerald_wand"},
+	 {"predicate": {"custom_model_data":7394}, "model":"item/custom/redstone_wand"},
+	 {"predicate": {"custom_model_data":7395}, "model":"item/custom/diamond_wand"},
+	 {"predicate": {"custom_model_data":7396}, "model":"item/custom/nether_star_wand"}
+	 
+     ]
+}

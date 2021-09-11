@@ -1,0 +1,14 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/book"
+  },
+
+    "overrides":[
+
+	 {"predicate": {"custom_model_data":7331}, "model":"item/custom/book_fortified"},
+     {"predicate": {"custom_model_data":7332}, "model":"item/custom/book_elevated"},
+	 {"predicate": {"custom_model_data":7333}, "model":"item/custom/book_solidified"}
+	 
+     ]
+}
